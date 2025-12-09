@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "foodproject/wsgi.py", "use": "vercel-wsgi" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "foodproject/wsgi.py" }
+  ]
+}
