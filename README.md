@@ -83,8 +83,54 @@ This project is a great way to practice authentication, CRUD operations, form ha
 ## Getting Started
 
 1. Clone the repository:
-
+```bash
+git clone https://github.com/pradyumna106-ship-it/Jp-s-Foody.git
+cd Jp-s-Foody
+```
 2. Create and activate a virtual environment (optional but recommended).
-
+```bash
+pip install -r requirements.txt
+```
 3. Install dependencies:
+  ```bash
+npm install
+```
+4. Run database migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. Create a superuser for admin access:
+```bash
+python manage.py createsuperuser
+```
+
+6. Start the development server:
+```bash
+python manage.py runserver
+```
+
+7. Open the app in your browser at:
+```bash
+http://127.0.0.1:8000/
+```
+
+
+## Roadmap / Possible Enhancements
+
+- User authentication and profiles for diners and restaurant owners.  
+- Payment gateway integration for online payments.  
+- Delivery partner assignment and tracking.  
+- Ratings and reviews for restaurants and dishes.  
+- Mobile‑friendly UI improvements.
+
+## Contributing
+
+Contributions, ideas, and suggestions are welcome. Feel free to open issues or submit pull requests to improve features, fix bugs, or enhance documentation.
+
+## License
+
+Specify your license here (e.g., MIT License) once you decide how you want others to use this project.
+
+
 
