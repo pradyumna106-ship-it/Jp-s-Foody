@@ -49,7 +49,7 @@ The focus is on:
 - **Fair Pricing**  
   Reduce reliance on high‑commission platforms by handling online orders directly through MealMate.
 
-## Why Build MealMate?
+## Why Build Jp-s-Foody?
 
 ### For Diners
 
