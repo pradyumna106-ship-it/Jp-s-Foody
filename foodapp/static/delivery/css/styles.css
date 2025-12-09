@@ -1,68 +1,85 @@
-/* General styles */
+/* ===============================
+   Global Styles
+   =============================== */
+
 body {
-    font-family: Arial, sans-serif; /* Standard font */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F7E4E0; /* Light background color */
-    color: #333; /* Neutral text color for good readability */
+    background-color: #A8D5BA; /* Soft mint green */
+    color: #1B3A24; /* Dark forest text */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center-align all content */
+    align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Full height */
+    min-height: 100vh;
 }
 
-/* Headings */
+/* ===============================
+   Headings
+   =============================== */
+
 h1, h2, h3 {
     text-align: center;
-    color: #8BA6E9; /* Primary blue shade */
+    color: #2E5B3C; /* Deep green */
+    font-weight: bold;
 }
 
-/* Links */
+/* ===============================
+   Links
+   =============================== */
+
 a {
     text-decoration: none;
-    color: #7E96C4; /* Secondary blue shade */
+    color: #4B7F52; /* Mid green */
     font-weight: bold;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #8BA6E9; /* Lighter blue on hover */
+    color: #2E5B3C; /* Slightly darker */
 }
 
-/* Buttons */
+/* ===============================
+   Buttons
+   =============================== */
+
 button {
-    background-color: #8BA6E9; /* Button background */
+    background-color: #4B7F52; /* Mid green */
     color: white;
     border: none;
     padding: 10px 15px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #7E96C4; /* Slightly darker shade on hover */
+    background-color: #2E5B3C; /* Darker green */
 }
 
-/* Forms */
+/* ===============================
+   Forms
+   =============================== */
+
 form {
     background-color: white;
-    border: 2px solid #D7B7BC; /* Light border */
-    border-radius: 10px;
+    border: 2px solid #6B9A6E; /* Subtle green border */
+    border-radius: 12px;
     padding: 20px;
     width: 80%;
     max-width: 500px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     margin: 20px auto;
 }
 
 label {
     font-weight: bold;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    color: #1B3A24;
 }
 
 input[type="text"],
@@ -74,9 +91,10 @@ textarea {
     width: 95%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #D7B7BC; /* Subtle border */
-    border-radius: 5px;
+    border: 1px solid #6B9A6E;
+    border-radius: 6px;
     font-size: 14px;
+    background-color: #F1FFF5; /* Very soft greenish-white */
 }
 
 textarea {
@@ -84,47 +102,59 @@ textarea {
     height: 80px;
 }
 
-/* Tables */
+/* ===============================
+   Tables
+   =============================== */
+
 table {
     border-collapse: collapse;
     width: 90%;
     margin: 20px auto;
     background-color: white;
-    border: 2px solid #D7B7BC; /* Subtle border */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 2px solid #6B9A6E;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     text-align: left;
 }
 
 th, td {
     padding: 10px;
-    border: 1px solid #D7B7BC; /* Subtle cell border */
+    border: 1px solid #6B9A6E;
 }
 
 th {
-    background-color: #BED0F4; /* Table header color */
+    background-color: #4B7F52; /* Medium green */
     color: white;
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #F7E4E0; /* Alternate row color */
+    background-color: #DDEFE2; /* Light green tint */
 }
 
-/* Images */
+/* ===============================
+   Images
+   =============================== */
+
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 6px;
     margin: 10px 0;
 }
 
-/* Center alignment for specific elements */
+/* ===============================
+   Centering Common Elements
+   =============================== */
+
 h1, h2, h3, table, form {
     margin: 0 auto;
 }
 
-/* Additional spacing for elements */
+/* ===============================
+   Spacing for buttons + links
+   =============================== */
+
 a, button {
     margin: 10px;
 }
