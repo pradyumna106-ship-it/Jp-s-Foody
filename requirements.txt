@@ -1,0 +1,2 @@
+Django==5.2.3
+razorpay==1.4.2        # if you actually use Razorpay
